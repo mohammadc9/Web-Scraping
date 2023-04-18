@@ -32,7 +32,7 @@ while i < 8:
         lists.append(macbook_detail)
 
 
-#df=pd.DataFrame(lists)
-#df.to_csv('macbook_price.csv')
+df=pd.DataFrame(lists)
+df.to_csv('macbook_price.csv')
 print('Done!')
 driver.quit()
